@@ -1,0 +1,24 @@
+# Ignore .NET build results
+bin/
+obj/
+**/*.user
+**/*.suo
+**/*.vs
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sln
+*.csproj.user
+
+# Ignore logs
+*.log
+
+# Ignore configuration files
+appsettings.Development.json
+appsettings.Test.json
+
+# Ignore other unnecessary files
+*.md
+*.json
+*.xml
